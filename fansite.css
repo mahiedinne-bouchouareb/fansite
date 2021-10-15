@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+body {
+    font-family: 'Noto Sans Mono', monospace;
+    background-image:url("https://lh3.googleusercontent.com/S74V5MqY7SfcC2O4ZMI-ruOCHIGSS-0JuNkftB6gLBRlFzpq8f_PdjIZr6nAVp4TgHRNpm64XeZcga7tmgYIKsF6p1Sd1q0oJf-DZEU2YoLD5V8gWKbOyzejf06HGzkSnF-DgueE=w2400");
+    color:black;
+    margin: 0;
+    padding: 0;
+    }
+
+
+.velkoz{
+    background-image:url(https://tourisme-marseille.com/wp-content/uploads/2021/06/musee-de-l-olympique-de-marseille-om-stadium-tour-stade-velodrome-4.jpg);
+}
+
+.Intermarket{
+    background: #0095f9;
+    width: 100%;
+    height: 60px;
+    line-height: 66px;
+}
+
+.presente {
+        display: flex;
+        flex-direction: row;
+        justify-content :center;
+        background: blue;
+    }
+    .centrer {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+.imagecentre {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.lakers{
+    background: #00d4f9;
+    width: 100%;
+    height: 60px;
+    line-height: 66px;
+}
+
+.m-left{
+    float: left;
+}
+
+.m-right{
+    float: right;
+}
+
+.inner{
+    width: 80%;
+    margin: auto;
+}
+
+.logo{
+    margin: 0%;padding: 0;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'roboto';
+    font-weight: 900;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+.m-link{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0px;margin: 0 10px;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+
+.m-link:hover{
+    padding-bottom: 3px;
+    border-bottom: 2px solid #fff;
+}
+
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+footer {
+    background: #00d4f9;
+    width: 100%;
+    height: 60px;
+    line-height: 66px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #00d4f9;
+    color: #fff;
+    
+
+}   
+.facebook{
+    background-image:url(https://img1.freepng.fr/20171220/gze/twitter-logo-png-5a3a1851372e76.0876249315137567532269680.jpg);
+}
+
+.twitter{
+    background-image:url(https://png.pngtree.com/png-clipart/20181003/ourlarge/pngtree-facebook-social-media-icon-facebook-logo-png-image_3654772.png);
+}
+
+.Redbox{
+    min-height: 100%;
+    position: relative;
+}
+
+.h1z1{
+ margin: 0;
+ padding: 0;
+ text-align: center;
+}
+
+.Pepa{
+    margin: 0;
+    padding: 0px 50px;
+    font-size: justify;
+}
+
+.inner-footer{
+    margin: 0;
+    padding: 0;
+    height: 100p;
+    background-color: purple;
+}
+
+.social-links{
+    display: flex;
+}
+
+.social-links ul{
+    display: flex;
+}
+
+.social-items{
+    list-style: none;
+}
+
+.social-items a{
+    padding: 10px 20px;
+    font-size: 10px;
+    color: white;
+}
+
+.fab{
+    color: white;
+    font-size: 40px;
+}
+
+.midlane{
+    text-align: center;
+}
+
+.video {text-align: center;width:480px;margin-left:auto;margin-right:auto;margin-bottom:35px;}
+
+.ahri{
+    text-align: center;
+    color: white;
+}
+
+.obs{
+    display: flex;
+    flex-direction: row;
+    justify-content :center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mimage{
+    width: 150px; 
+    height: 150px; 
+  
+  }
+  .h1b1
+  {
+    font-size: 60px;
+    text-shadow: -1px -1px #0c0, 1px 1px #060, -3px 0 4px #000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #090;
+    padding:16px;
+    font-weight:lighter;
+    -moz-box-shadow: 3px 3px 6px #888;  
+    -webkit-box-shadow: 2px 2px 6px #888;  
+    box-shadow:2px 2px 6px #888;  
+    text-align:center;
+    display:block;
+    margin:10px;
+    background-image:url(images/background-h1-wood.jpg);  
+  }
+  
+  
+  
+  .germaine2{
+    display: flex;
+    flex-direction:column;
+    font-size: 20px;
+  
+  }
+  
+  .germaine{
+    display: flex;
+    flex-direction: row;
+    font-size: 150%;
+  
+  }
+  
+  .violance{      
+  
+    padding-top: 20px;
+    
+    
+  }
+  img{
+    width: 500px;
+    height: 350px;
+  }
+  
+  .violance2{
+    display: flex;
+    flex-direction:column;
+    font-size: 20px;
+  
+  }
+  
+  .nice{
+    display: flex;
+    flex-direction: row;
+    font-size: 150%;
+    padding-top: 20px;
+  
+  }
+  .dimitri{      
+  
+    padding-top: 30px;
+    display: flex; 
+    flex-direction: row;
+    font-size: 20px;
+  }
+  img{
+    width: 500px;
+    height: 350px;
+  }
+  
+  .dimitri2{
+    display: flex;
+    flex-direction:column;
+    font-size: 20px;
+  
+  }
+  
+  .nice{
+    display: flex;
+    flex-direction: row;
+    font-size: 150%;
+    padding-top: 20px;
+  }
